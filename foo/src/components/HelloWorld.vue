@@ -29,17 +29,17 @@
     </ul>
     <h3>Project</h3>
     <ul>
-      <li><a href="/Ecommere" target="_blank" rel="noopener">Ecommere</a></li>
+      <li><router-link to="/Ecommere">Ecommere</router-link></li>
     </ul>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  }
+	name: 'HelloWorld',
+	props: {
+		msg: String
+	}
 }
 </script>
 
